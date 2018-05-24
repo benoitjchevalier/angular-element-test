@@ -1,0 +1,199 @@
+{
+  "docs": [
+    {
+      "comment": "/**\n         * @prop title\n         * button from zz\n         */",
+      "meta": {
+        "range": [
+          10057,
+          10078
+        ],
+        "filename": "main.js",
+        "lineno": 195,
+        "columnno": 8,
+        "path": "/Users/105065910/HDX/angular-element-test/docs",
+        "code": {
+          "id": "astnode100000796",
+          "name": "this.title",
+          "type": "Literal",
+          "value": "button",
+          "paramnames": []
+        }
+      },
+      "properties": [
+        {
+          "description": "button from zz",
+          "name": "title"
+        }
+      ],
+      "name": "title",
+      "longname": "\"./src/app/zz-button/zz-button.component.ts\"~ZzButtonComponent#title",
+      "kind": "member",
+      "memberof": "\"./src/app/zz-button/zz-button.component.ts\"~ZzButtonComponent",
+      "scope": "instance",
+      "___id": "T000002R000080",
+      "___s": true
+    },
+    {
+      "comment": "/**\n         * @prop buttonprop from zz\n         * @private\n         */",
+      "meta": {
+        "range": [
+          10168,
+          10190
+        ],
+        "filename": "main.js",
+        "lineno": 200,
+        "columnno": 8,
+        "path": "/Users/105065910/HDX/angular-element-test/docs",
+        "code": {
+          "id": "astnode100000802",
+          "name": "this.title2",
+          "type": "Literal",
+          "value": "button",
+          "paramnames": []
+        }
+      },
+      "properties": [
+        {
+          "description": "from zz",
+          "name": "buttonprop"
+        }
+      ],
+      "access": "private",
+      "name": "title2",
+      "longname": "\"./src/app/zz-button/zz-button.component.ts\"~ZzButtonComponent#title2",
+      "kind": "member",
+      "memberof": "\"./src/app/zz-button/zz-button.component.ts\"~ZzButtonComponent",
+      "scope": "instance",
+      "___id": "T000002R000081",
+      "___s": true
+    },
+    {
+      "comment": "/**\n         * inputreturnValue returns a value\n         *\n         * @event inputreturnValueEvent\n         */",
+      "meta": {
+        "filename": "main.js",
+        "lineno": 201,
+        "columnno": 8,
+        "path": "/Users/105065910/HDX/angular-element-test/docs",
+        "code": {}
+      },
+      "description": "inputreturnValue returns a value",
+      "kind": "event",
+      "name": "inputreturnValueEvent",
+      "longname": "event:inputreturnValueEvent",
+      "scope": "global",
+      "___id": "T000002R000082",
+      "___s": true
+    },
+    {
+      "comment": "/**\n         * inputreturnValue returns a value, no @Output\n         *\n         * @event inputreturnValueEvent2\n         */",
+      "meta": {
+        "filename": "main.js",
+        "lineno": 207,
+        "columnno": 8,
+        "path": "/Users/105065910/HDX/angular-element-test/docs",
+        "code": {}
+      },
+      "description": "inputreturnValue returns a value, no @Output",
+      "kind": "event",
+      "name": "inputreturnValueEvent2",
+      "longname": "event:inputreturnValueEvent2",
+      "scope": "global",
+      "___id": "T000002R000084",
+      "___s": true
+    },
+    {
+      "comment": "/**\n        * @output: An output event for the item - otherValue\n        */",
+      "meta": {
+        "range": [
+          10732,
+          10814
+        ],
+        "filename": "main.js",
+        "lineno": 216,
+        "columnno": 8,
+        "path": "/Users/105065910/HDX/angular-element-test/docs",
+        "code": {
+          "id": "astnode100000826",
+          "name": "this.otherValue",
+          "type": "NewExpression",
+          "value": "",
+          "paramnames": []
+        }
+      },
+      "tags": [
+        {
+          "originalTitle": "output:",
+          "title": "output:",
+          "text": "An output event for the item - otherValue",
+          "value": "An output event for the item - otherValue"
+        }
+      ],
+      "name": "otherValue",
+      "longname": "\"./src/app/zz-button/zz-button.component.ts\"~ZzButtonComponent#otherValue",
+      "kind": "member",
+      "memberof": "\"./src/app/zz-button/zz-button.component.ts\"~ZzButtonComponent",
+      "scope": "instance",
+      "___id": "T000002R000086",
+      "___s": true
+    },
+    {
+      "comment": "/**\n     * @method Open\n     * @description opens the thingy\n     */",
+      "meta": {
+        "filename": "main.js",
+        "lineno": 218,
+        "columnno": 4,
+        "path": "/Users/105065910/HDX/angular-element-test/docs",
+        "code": {}
+      },
+      "kind": "function",
+      "name": "Open",
+      "description": "opens the thingy",
+      "longname": "Open",
+      "scope": "global",
+      "___id": "T000002R000087",
+      "___s": true
+    },
+    {
+      "comment": "/**\n         * @prop title\n         * a title\n         */",
+      "meta": {
+        "range": [
+          13942,
+          13962
+        ],
+        "filename": "main.js",
+        "lineno": 296,
+        "columnno": 8,
+        "path": "/Users/105065910/HDX/angular-element-test/docs",
+        "code": {
+          "id": "astnode100001096",
+          "name": "this.title",
+          "type": "Literal",
+          "value": "ssada",
+          "paramnames": []
+        }
+      },
+      "properties": [
+        {
+          "description": "a title",
+          "name": "title"
+        }
+      ],
+      "name": "title",
+      "longname": "\"./src/app/zz-buttonn/zz-buttonn.component.ts\"~ZzButtonnComponent#title",
+      "kind": "member",
+      "memberof": "\"./src/app/zz-buttonn/zz-buttonn.component.ts\"~ZzButtonnComponent",
+      "scope": "instance",
+      "___id": "T000002R000112",
+      "___s": true
+    },
+    {
+      "kind": "package",
+      "longname": "package:undefined",
+      "files": [
+        "/Users/105065910/HDX/angular-element-test/docs/main.js"
+      ],
+      "___id": "T000002R000129",
+      "___s": true
+    }
+  ]
+}
