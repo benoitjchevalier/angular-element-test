@@ -4,7 +4,8 @@
   "scripts": {
     "build:elements": "ng build --prod --output-hashing none && node elements-build.js",
     "buildForDocs": "ng build --aot --preserve-symlinks true --skip-app-shell true --output-path ./docs --source-map false --ts-config ./tsconfig-doc.json",
-    "docs": "./node_modules/jsdoc/jsdoc.js --template ./node_modules/jsdoc-json/ --destination doc.json -c ./conf.json  ./docs/main.js"
+    "docs": "./node_modules/jsdoc/jsdoc.js --template ./node_modules/jsdoc-json/ --destination doc.json -c ./conf.json ./docs/main.js",
+    "ngc": "ngc"
   },
   "private": true,
   "dependencies": {

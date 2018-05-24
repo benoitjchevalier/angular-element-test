@@ -17,7 +17,7 @@ import { ZzButtonnComponent } from './zz-buttonn/zz-buttonn.component';
     ZzButtonnComponent
   ],
   imports: [
-    BrowserModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
