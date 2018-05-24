@@ -4,17 +4,14 @@ import { createCustomElement } from '@angular/elements';
 
 import { AppComponent } from './app.component';
 import { ZzButtonComponent } from './zz-button/zz-button.component';
-import { ZzButtonnComponent } from './zz-buttonn/zz-buttonn.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ZzButtonComponent,
-    ZzButtonnComponent
+    ZzButtonComponent
   ],
   entryComponents: [
-    ZzButtonComponent,
-    ZzButtonnComponent
+    ZzButtonComponent
   ],
   imports: [
 
@@ -25,9 +22,7 @@ import { ZzButtonnComponent } from './zz-buttonn/zz-buttonn.component';
 export class AppModule {
   constructor(private injector: Injector) {}
   ngDoBootstrap() {
-    const el = createCustomElement(ZzButtonComponent, { injector: this.injector }),
-    el2 = createCustomElement(ZzButtonnComponent, { injector: this.injector });
+    const el = createCustomElement(ZzButtonComponent, { injector: this.injector });
     customElements.define('zz-button', el);
-    customElements.define('zz-buttonn', el2);
   }
 }
